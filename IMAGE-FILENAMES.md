@@ -5,14 +5,26 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 
 ## Homepage
 
+- cheesecake-factory-ahi-tuna-poke-bowl-greens.webp
+- cheesecake-factory-ahi-tuna-poke-bowl-rice.webp
+- cheesecake-factory-asian-chicken-nachos.webp
+- cheesecake-factory-asian-tenderloin-bowl.webp
 - cheesecake-factory-avocado-eggrolls.webp
+- cheesecake-factory-avocado-toast.webp
+- cheesecake-factory-baja-bowl-chipotle-honey-shrimp.webp
+- cheesecake-factory-baja-bowl-grilled-chicken.webp
+- cheesecake-factory-baja-bowl-pork-carnitas.webp
+- cheesecake-factory-baked-brie-truffle-honey-butter.webp
+- cheesecake-factory-bbq-pork-belly-buns.webp
 - cheesecake-factory-bee-sting-flatbread-pizza.webp
 - cheesecake-factory-beet-avocado-salad.webp
 - cheesecake-factory-buffalo-blasts.webp
 - cheesecake-factory-buffalo-chicken-strips.webp
 - cheesecake-factory-cheese-flatbread-pizza.webp
 - cheesecake-factory-cheesecake-slice-hero.webp *(hero, 512x512)*
+- cheesecake-factory-chicken-and-biscuits.webp
 - cheesecake-factory-chicken-bellagio.webp
+- cheesecake-factory-chicken-katsu-bowl.webp
 - cheesecake-factory-chicken-madeira.webp
 - cheesecake-factory-chicken-piccata.webp
 - cheesecake-factory-chicken-pot-stickers.webp
@@ -45,12 +57,17 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-lemonades.webp
 - cheesecake-factory-louisiana-chicken-pasta.webp
 - cheesecake-factory-margherita-flatbread-pizza.webp
+- cheesecake-factory-meatball-sliders.webp
 - cheesecake-factory-milkshakes.webp
+- cheesecake-factory-new-orleans-cajun-shrimp.webp
 - cheesecake-factory-old-fashioned-burger.webp
 - cheesecake-factory-oreo-dream-extreme-cheesecake.webp
 - cheesecake-factory-original-cheesecake.webp
+- cheesecake-factory-parmesan-truffle-fries.webp
 - cheesecake-factory-pasta-carbonara.webp
 - cheesecake-factory-pepperoni-flatbread-pizza.webp
+- cheesecake-factory-peruvian-chicken-bowl.webp
+- cheesecake-factory-pickle-fries.webp
 - cheesecake-factory-salted-caramel-cheesecake.webp
 - cheesecake-factory-skinnylicious-chicken-pasta.webp
 - cheesecake-factory-skinnylicious-chicken-soft-tacos.webp
@@ -59,7 +76,10 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-skinnylicious-little-house-salad.webp
 - cheesecake-factory-skinnylicious-tuscan-chicken.webp
 - cheesecake-factory-skinnylicious-veggie-burger.webp
+- cheesecake-factory-southern-fried-chicken-bowl.webp
 - cheesecake-factory-spaghetti-meatballs.webp
+- cheesecake-factory-spicy-jambalaya-arancini.webp
+- cheesecake-factory-teriyaki-salmon-bowl.webp
 - cheesecake-factory-tex-mex-eggrolls.webp
 - cheesecake-factory-the-club-sandwich.webp
 - cheesecake-factory-toasted-marshmallow-smores-cheesecake.webp
@@ -181,6 +201,6 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 
 ---
 
-**Total: 158 unique image files across 11 pages.**
+**Total: 178 unique image files across 11 pages.**
 
 Many images are reused across multiple pages — upload each filename once and it displays everywhere it's referenced.
