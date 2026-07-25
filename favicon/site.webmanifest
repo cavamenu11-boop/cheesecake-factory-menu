@@ -1,0 +1,19 @@
+{
+  "name": "Cheesecake Factory Menus",
+  "short_name": "CF Menus",
+  "icons": [
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#3D2B22",
+  "background_color": "#FBF6F0",
+  "display": "standalone"
+}
