@@ -6,7 +6,52 @@ document.addEventListener('DOMContentLoaded', function () {
   initMobileNav();
   initBackToTop();
   initAccordion();
+  initCouponModal();
 });
+
+function initCouponModal() {
+  var buttons = document.querySelectorAll('.coupon-card [data-modal-trigger]');
+  var overlay = document.getElementById('coupon-modal-overlay');
+  if (!buttons.length || !overlay) return;
+
+  var titleEl = document.getElementById('coupon-modal-title');
+  var codeEl = document.getElementById('coupon-modal-code');
+  var discountEl = document.getElementById('coupon-modal-discount');
+  var whereEl = document.getElementById('coupon-modal-where');
+  var statusEl = document.getElementById('coupon-modal-status');
+  var verifiedEl = document.getElementById('coupon-modal-verified');
+  var closeBtn = overlay.querySelector('.modal-close');
+
+  function openModal(btn) {
+    titleEl.textContent = btn.dataset.name || '';
+    codeEl.textContent = btn.dataset.code || '';
+    discountEl.textContent = btn.dataset.discount || '';
+    whereEl.textContent = btn.dataset.where || '';
+    statusEl.textContent = btn.dataset.status || '';
+    verifiedEl.textContent = btn.dataset.verified || '';
+    overlay.classList.add('is-open');
+  }
+
+  function closeModal() {
+    overlay.classList.remove('is-open');
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      openModal(btn);
+    });
+  });
+
+  if (closeBtn) closeBtn.addEventListener('click', closeModal);
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) closeModal();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeModal();
+  });
+}
 
 function initAccordion() {
   var triggers = document.querySelectorAll('.accordion-trigger');

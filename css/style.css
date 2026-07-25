@@ -61,6 +61,25 @@ a {
   text-decoration: none;
 }
 
+/* Inline content links (within paragraphs/lists in the main content area) */
+main p a,
+main li a,
+.info-box dd a {
+  color: var(--color-secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 2px;
+  font-weight: 600;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+main p a:hover,
+main li a:hover,
+.info-box dd a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
 ul {
   list-style: none;
 }
@@ -895,6 +914,158 @@ section {
 .download-box-body p {
   color: var(--color-text-muted);
   font-size: 0.9rem;
+}
+
+/* ---------- Coupon Cards ---------- */
+.coupon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.coupon-card {
+  background: var(--color-surface);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: center;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.coupon-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-3px);
+}
+
+.coupon-card .coupon-discount {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-secondary);
+  line-height: 1.2;
+}
+
+.coupon-card .coupon-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.coupon-status {
+  display: inline-block;
+  align-self: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.coupon-status.status-active {
+  background: rgba(91, 123, 91, 0.15);
+  color: var(--color-success);
+}
+
+.coupon-status.status-expired {
+  background: rgba(184, 114, 46, 0.15);
+  color: var(--color-warning);
+}
+
+.coupon-status.status-unconfirmed {
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+}
+
+.coupon-card .btn {
+  margin-top: 0.25rem;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.85rem;
+}
+
+/* ---------- Modal Popup ---------- */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(46, 27, 34, 0.55);
+  z-index: 300;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-overlay.is-open {
+  display: flex;
+}
+
+.modal-box {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  max-width: 420px;
+  width: 100%;
+  position: relative;
+  box-shadow: var(--shadow-card-hover);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: var(--color-bg);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: var(--color-secondary);
+}
+
+.modal-box h3 {
+  margin-bottom: 0.75rem;
+  padding-right: 1.5rem;
+}
+
+.modal-box dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.modal-box dt {
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.modal-box dd {
+  color: var(--color-text);
+}
+
+/* ---------- Code Chips (unverified codes list) ---------- */
+.code-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.code-chip {
+  font-family: monospace;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  text-decoration: line-through;
 }
 
 /* ---------- Back To Top ---------- */
