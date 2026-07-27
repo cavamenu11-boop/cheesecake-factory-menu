@@ -80,6 +80,21 @@ main li a:hover,
   text-decoration-color: var(--color-accent);
 }
 
+/* Inline links on dark hero backgrounds need the gold accent instead of
+   burgundy, since burgundy has poor contrast against the dark brown
+   hero background. Matches .hero-eyebrow, which already uses this gold. */
+.hero p a,
+.page-hero p a {
+  color: var(--color-accent);
+  text-decoration-color: rgba(201, 161, 90, 0.55);
+}
+
+.hero p a:hover,
+.page-hero p a:hover {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
 ul {
   list-style: none;
 }
