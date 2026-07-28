@@ -18,6 +18,7 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-bbq-pork-belly-buns.webp
 - cheesecake-factory-bee-sting-flatbread-pizza.webp
 - cheesecake-factory-beet-avocado-salad.webp
+- cheesecake-factory-bistro-burger.webp
 - cheesecake-factory-buffalo-blasts.webp
 - cheesecake-factory-buffalo-chicken-strips.webp
 - cheesecake-factory-cheese-flatbread-pizza.webp
@@ -47,7 +48,6 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-grilled-ribeye-steak.webp
 - cheesecake-factory-herb-crusted-salmon.webp
 - cheesecake-factory-iced-tea-fresh-juices.webp
-- cheesecake-factory-impossible-burger.webp
 - cheesecake-factory-kids-fried-chicken-strips.webp
 - cheesecake-factory-kids-grilled-cheese.webp
 - cheesecake-factory-kids-mac-and-cheese.webp
@@ -151,7 +151,6 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-jw-pink-lemonade.webp
 - cheesecake-factory-lemon-mint-cooler.webp
 - cheesecake-factory-mai-tai.webp
-- cheesecake-factory-margarita.webp
 - cheesecake-factory-mojito.webp
 - cheesecake-factory-oreo-milkshake.webp
 - cheesecake-factory-paradise-punch.webp
@@ -192,15 +191,15 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-little-gem-lettuce-salad.webp
 - cheesecake-factory-seared-tuna-tataki-salad.webp
 - cheesecake-factory-sheilas-chicken-avocado-salad.webp
+- cheesecake-factory-skinnylicious-asian-chicken-salad.webp
 - cheesecake-factory-skinnylicious-factory-chopped-salad.webp
 - cheesecake-factory-skinnylicious-mexican-tortilla-salad.webp
-- cheesecake-factory-skinnylicious-salmon-salad.webp
 - cheesecake-factory-thai-chicken-salad.webp
 - cheesecake-factory-tossed-green-salad.webp
 - cheesecake-factory-vegan-cobb-salad.webp
 
 ---
 
-**Total: 178 unique image files across 11 pages.**
+**Total: 177 unique image files across 11 pages.**
 
 Many images are reused across multiple pages — upload each filename once and it displays everywhere it's referenced.
