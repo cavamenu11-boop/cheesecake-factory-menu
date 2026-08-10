@@ -198,8 +198,17 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 - cheesecake-factory-tossed-green-salad.webp
 - cheesecake-factory-vegan-cobb-salad.webp
 
+## Pasta
+
+- cheesecake-factory-bistro-shrimp-pasta.webp
+- cheesecake-factory-cajun-jambalaya-pasta.webp
+- cheesecake-factory-fettuccini-alfredo-shrimp.webp
+- cheesecake-factory-four-cheese-pasta.webp
+- cheesecake-factory-pasta-da-vinci.webp
+- cheesecake-factory-tomato-basil-pasta.webp
+
 ---
 
-**Total: 177 unique image files across 11 pages.**
+**Total: 183 unique image files across 12 pages.**
 
 Many images are reused across multiple pages — upload each filename once and it displays everywhere it's referenced.
