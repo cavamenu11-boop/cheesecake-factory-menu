@@ -209,6 +209,6 @@ Upload all images to `/images/` using these exact filenames. Recommended size: 8
 
 ---
 
-**Total: 183 unique image files across 12 pages.**
+**Total: 183 unique image files across 13 pages.**
 
 Many images are reused across multiple pages — upload each filename once and it displays everywhere it's referenced.
